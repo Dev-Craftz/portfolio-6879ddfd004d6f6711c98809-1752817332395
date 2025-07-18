@@ -1,0 +1,120 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Sai Teja Bandari</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+          <style>
+            img.profile-pic { max-width: 150px; max-height: 150px; object-fit: cover; }
+            img.project-img { max-width: 300px; max-height: 200px; object-fit: cover; }
+            img.certificate-img { max-width: 400px; max-height: 250px; object-fit: contain; }
+            body { background: linear-gradient(to bottom right, #f9fafb, #e5e7eb); }
+            @media (prefers-color-scheme: dark) {
+              body { background: linear-gradient(to bottom right, #1f2937, #374151); }
+            }
+          </style>
+        </head>
+        <body>
+          <link rel="preload" as="image" href="https://res.cloudinary.com/drc8bufjn/image/upload/v1752817214/portfolios/csogxmnar5bh6mwqofbt.jpg"/><div class="min-h-screen bg-gray-900 text-cyan-400 font-mono"><style>
+          @keyframes scanline {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+          }
+          @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+              text-shadow: 
+                0 0 4px #0ff,
+                0 0 11px #0ff,
+                0 0 19px #0ff,
+                0 0 40px #0fa,
+                0 0 80px #0fa,
+                0 0 90px #0fa,
+                0 0 100px #0fa,
+                0 0 150px #0fa;
+            }
+            20%, 24%, 55% {        
+              text-shadow: none;
+            }
+          }
+          .scanlines {
+            position: relative;
+            overflow: hidden;
+          }
+          .scanlines::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+              to bottom,
+              transparent 0%,
+              rgba(0, 255, 170, 0.05) 50%,
+              transparent 100%
+            );
+            background-size: 100% 8px;
+            animation: scanline 6s linear infinite;
+            pointer-events: none;
+          }
+          .neon-text {
+            animation: flicker 3s infinite alternate;
+          }
+        </style><div class="scanlines"><header class="bg-black border-b-2 border-cyan-400 py-4 sticky top-0 z-50"><div class="container mx-auto px-4 flex justify-between items-center"><h1 class="text-3xl font-bold tracking-tight neon-text">Sai Teja Bandari</h1><button id="menu-toggle" class="md:hidden text-cyan-400 focus:outline-none hover:text-white p-2 rounded transition-colors duration-300" aria-label="Open menu"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button><nav class="hidden md:flex space-x-8"><a href="#profile" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">About</a><a href="#skills" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">Skills</a><a href="#projects" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">Projects</a><a href="#certificates" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">Certificates</a><a href="#resume" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">Resume</a><a href="#contact" class="text-lg hover:text-white hover:underline decoration-cyan-400 transition-colors duration-300">Contact</a></nav></div><div id="mobile-menu" class="md:hidden bg-black border-t-2 border-cyan-400 flex-col space-y-2 px-4 py-4 absolute top-full left-0 right-0 z-40 hidden transition-all duration-300"><a href="#profile" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">About</a><a href="#skills" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">Skills</a><a href="#projects" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">Projects</a><a href="#certificates" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">Certificates</a><a href="#resume" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">Resume</a><a href="#contact" class="text-lg hover:text-white hover:underline decoration-cyan-400 py-2 transition-colors duration-300">Contact</a></div></header><main class="container mx-auto px-4 py-12"><section id="profile" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 text-center neon-text">About Me</h2><div class="flex flex-col md:flex-row items-center gap-8"><img src="https://res.cloudinary.com/drc8bufjn/image/upload/v1752817214/portfolios/csogxmnar5bh6mwqofbt.jpg" alt="Profile" class="w-40 h-40 rounded-full object-cover border-4 border-cyan-400 hover:border-white transition-all"/><div class="text-center md:text-left"><h3 class="text-3xl font-semibold mb-3 neon-text">Sai Teja Bandari</h3><p class="mb-6 text-cyan-300 leading-relaxed">I am a student</p><div class="flex flex-col md:flex-row md:space-x-6 space-y-3 md:space-y-0"><p><strong class="text-white">Email:</strong> <a href="mailto:saiteja2261@gamil.com" class="text-cyan-400 hover:text-white">saiteja2261@gamil.com</a></p><p><strong class="text-white">WhatsApp:</strong> <a href="https://wa.me/+916302181501" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:text-white">Contact via WhatsApp</a></p></div></div></div></div></section><section id="skills" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 text-center neon-text">Skills</h2><div class="grid grid-cols-2 md:grid-cols-4 gap-4"><div class="bg-gray-900 p-4 rounded-lg text-center text-cyan-400 font-medium border border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all">🟢 Node.js</div></div></div></section><section id="projects" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 text-center neon-text">Projects</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><p class="text-center col-span-full text-cyan-400">No projects listed.</p></div></div></section><section id="certificates" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 text-center neon-text">Certificates</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><p class="text-center col-span-full text-cyan-400">No certificates listed.</p></div></div></section><section id="resume" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg text-center shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 neon-text">Resume</h2><div class="flex justify-center"><a href="https://res.cloudinary.com/drc8bufjn/raw/upload/v1752817251/portfolios/ojwms7qrsls0bmtdjals.pdf" download="Sai Teja Bandari_Resume.pdf" class="bg-cyan-400 text-gray-900 px-8 py-4 rounded-full hover:bg-gray-900 hover:text-cyan-400 hover:glow-hover transition-all">Download Resume (PDF)</a></div></div></section><section id="contact" class="mb-16 scroll-mt-24"><div class="bg-gray-800 border-2 border-cyan-400 p-8 rounded-lg text-center shadow-lg shadow-cyan-400/20"><h2 class="text-4xl font-bold mb-6 neon-text">Contact Me</h2><div class="flex justify-center space-x-8 mb-6"><a href="mailto:saiteja2261@gamil.com" class="text-3xl text-cyan-400 hover:text-white hover:scale-110 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></a></div><p class="text-cyan-300">Feel free to reach out for opportunities or collaborations!</p></div></section></main><footer class="bg-black border-t-2 border-cyan-400 py-4"><div class="container mx-auto px-4 text-center"><p>© <a href="https://tinyurl.com/DevCraftwebsite">Made by DevCraftz  </a> <!-- -->2025<!-- --> <!-- -->Sai Teja Bandari<!-- -->. All rights reserved.</p></div></footer></div></div>
+          
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            
+            if (menuToggle && mobileMenu && menuIcon) {
+              menuToggle.addEventListener('click', () => {
+                const isHidden = mobileMenu.classList.contains('hidden');
+                mobileMenu.classList.toggle('hidden', !isHidden);
+                mobileMenu.classList.toggle('flex', isHidden);
+                menuIcon.setAttribute('d', isHidden ? 
+                  'M6 18L18 6M6 6l12 12' : 
+                  'M4 6h16M4 12h16M4 18h16'
+                );
+              });
+
+              document.querySelectorAll('#mobile-menu a').forEach(link => {
+                link.addEventListener('click', (e) => {
+                  e.preventDefault();
+                  const href = link.getAttribute('href');
+                  const target = document.querySelector(href);
+                  if (target) {
+                    const headerOffset = document.querySelector('header')?.offsetHeight || 0;
+                    const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+                    window.scrollTo({
+                      top: elementPosition - headerOffset,
+                      behavior: 'smooth'
+                    });
+                    mobileMenu.classList.add('hidden');
+                    mobileMenu.classList.remove('flex');
+                    menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+                  }
+                });
+              });
+            }
+
+            document.querySelectorAll('img').forEach(img => {
+              img.addEventListener('error', (e) => {
+                e.target.style.display = 'none';
+                const parent = e.target.parentElement;
+                const fallback = document.createElement('div');
+                fallback.className = 'w-full h-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-gray-500 dark:text-gray-400 rounded';
+                fallback.textContent = 'Image Not Available';
+                parent.appendChild(fallback);
+              });
+            });
+          });
+        </script>
+      
+        </body>
+        </html>
+      
